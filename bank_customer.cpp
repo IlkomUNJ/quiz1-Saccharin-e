@@ -18,6 +18,10 @@ void BankCustomer::setBalance(double amount) {
     this->balance = amount;
 }
 
+void BankCustomer::setName(const string& name) {
+    this->name = name;
+}
+
 void BankCustomer::addBalance(double amount) {
     this->balance += amount;
 }
